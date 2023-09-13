@@ -10,6 +10,6 @@ jobs:
     steps: 
     - uses: actions/checkout@v3
     - name: kode 
-      run: curl ifconfig.me
+      run: echo '=====> ip '$(curl ifconfig.me)
     - name: oke
       run: bash oke.sh
