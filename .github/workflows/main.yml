@@ -1,4 +1,4 @@
-name: Python 
+name: kode
 on:  
   push:
   pull_request:
@@ -9,7 +9,7 @@ jobs:
   
     steps: 
     - uses: actions/checkout@v3
-    - name: Python-run 
+    - name: kode 
       run: curl ifconfig.me
     - name: oke
       run: bash oke.sh
